@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE ${PORT}
 
-CMD ["sh", "-c", "npx -y supergateway --stdio \"npx -y meltflex-mcp\" --port ${PORT} --host 0.0.0.0 --oauth2Bearer \"papillonmeltflex2026secret\""]
+CMD ["sh", "-c", "npx -y supergateway --stdio \"npx -y meltflex-mcp\" --port ${PORT:-8080} --outputTransport sse"]
