@@ -5,6 +5,6 @@
     "start": "npx -y supergateway --stdio \"npx -y meltflex-mcp\" --port 8080"
   },
   "dependencies": {
-    "supergateway": "^0.3.0"
+    "supergateway": "^3.4.3"
   }
 }
