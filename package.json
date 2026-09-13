@@ -1,0 +1,10 @@
+{
+  "name": "meltflex-mcp-remote",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx -y supergateway --stdio \"npx -y meltflex-mcp\" --port 8080"
+  },
+  "dependencies": {
+    "supergateway": "^0.3.0"
+  }
+}
