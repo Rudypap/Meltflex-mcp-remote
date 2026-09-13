@@ -1,8 +1,15 @@
 {
   "name": "meltflex-mcp-remote",
   "version": "1.0.0",
+  "description": "Serveur MCP MeltFlex distant pour Dust",
+  "main": "index.js",
   "scripts": {
-   "start": "supergateway --stdio \"npx -y meltflex-mcp\" --port $PORT --host 0.0.0.0"  "dependencies": {
+    "start": "supergateway --stdio \"npx -y meltflex-mcp\" --port $PORT --host 0.0.0.0"
+  },
+  "dependencies": {
     "supergateway": "^3.4.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
